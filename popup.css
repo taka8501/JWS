@@ -1,0 +1,58 @@
+.btn-gradient-radius {
+    display: inline-block;
+    padding: 7px 20px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #FFF;
+    background-image: linear-gradient(45deg, #FFC107 0%, #ff8b5f 100%);
+    transition: .4s;
+
+  }
+  
+  .btn-gradient-radius:hover {
+    background-image: linear-gradient(45deg, #FFC107 0%, #f76a35 100%);
+    margin:auto
+  }
+  .btn-flat-border {
+    display: inline-block;
+    padding: 0.3em 1em;
+    text-decoration: none;
+    color: #67c5ff;
+    border: solid 2px #67c5ff;
+    border-radius: 3px;
+    transition: .4s;
+    margin:auto
+  }
+  
+  .btn-flat-border:hover {
+    background: #67c5ff;
+    color: white;
+  }
+  body {
+    background-image: url(backgron.jpg);
+  }
+  input[type="text"] {
+    width: 300px;
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  input[type="submit"] {
+    height: 40px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0 15px;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  h1
+  {color: gold;
+
+  }
